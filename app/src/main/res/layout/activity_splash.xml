@@ -11,9 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lottie"
-        app:lottie_rawRes="@raw/helloSplash"
+        app:lottie_rawRes="@raw/hellosplash"
         app:lottie_autoPlay="true"
         android:layout_centerInParent="true"/>
+
     <!-- Animation will not visible in xml file -->
 
 </RelativeLayout>
