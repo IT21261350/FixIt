@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FixIt</string>
+
+    <string-array name="type">
+        <item></item>
+        <item>Worker</item>
+        <item>Customer</item>
+    </string-array>
+
 </resources>
