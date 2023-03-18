@@ -7,16 +7,17 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/pagebkg"
-    tools:context=".Signup">
+    tools:context=".Customer">
 
-    <TextView
-        android:id="@+id/cancel_button"
-        android:layout_width="400dp"
-        android:layout_height="20dp"
-        android:drawableLeft="@drawable/baseline_cancel_24"
-        android:padding="340dp"
-        android:paddingBottom="10dp"
-        android:translationY="12dp" />
+    <ImageButton
+        android:id="@+id/cusBtnCancel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/non_border"
+        android:contentDescription="@string/login_cancelBtn"
+        android:translationX="140dp"
+        android:translationY="20dp"
+        app:srcCompat="@drawable/baseline_cancel_24" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -36,7 +37,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Worker"
+                android:text="Customer"
                 android:textAlignment="center"
                 android:textColor="@color/lavender"
                 android:textSize="36dp"
@@ -45,8 +46,8 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="303dp"
-                android:layout_height="223dp"
+                android:layout_width="301dp"
+                android:layout_height="192dp"
                 android:textAlignment="center"
                 android:translationY="-10dp"
                 app:srcCompat="@drawable/propic2"
@@ -100,15 +101,15 @@
                 android:translationY="-10dp" />
 
             <EditText
-                android:id="@+id/worker_age"
+                android:id="@+id/customer_age"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/lavender_border"
                 android:hint="Age"
-                android:padding="15dp"
+                android:padding="13dp"
                 android:textColor="@color/black"
-                android:translationY="-10dp" />
+                android:translationY="-10.5dp" />
 
             <EditText
                 android:id="@+id/worker_number"
@@ -127,7 +128,7 @@
                 android:id="@+id/signup_button"
                 android:layout_width="162dp"
                 android:layout_height="50dp"
-                android:text="Save"
+                android:text="@string/customer_save"
                 android:textSize="18sp"
                 android:translationX="77dp"
                 app:cornerRadius="20dp" />

@@ -9,13 +9,15 @@
     android:background="@drawable/pagebkg"
     tools:context=".Login">
 
-    <TextView
-        android:id="@+id/cancel_button"
-        android:layout_width="400dp"
-        android:layout_height="20dp"
-        android:drawableLeft="@drawable/baseline_cancel_24"
-        android:padding="340dp"
-        android:paddingBottom="50dp"/>
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/non_border"
+        android:contentDescription="@string/login_cancelBtn"
+        android:translationX="140dp"
+        android:translationY="20dp"
+        app:srcCompat="@drawable/baseline_cancel_24" />
 
 
     <androidx.cardview.widget.CardView
@@ -67,13 +69,13 @@
                 android:textColor="@color/black"/>
 
             <Button
+                android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Login"
-                android:id="@+id/login_button"
-                android:textSize="18sp"
                 android:layout_marginTop="30dp"
-                app:cornerRadius = "20dp"/>
+                android:text="@string/login_logIn"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
