@@ -5,37 +5,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEEEEE"
     tools:context=".MainActivity">
+
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomappbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        app:contentInsetStart="0dp"
         app:fabCradleMargin="10sp"
         app:fabCradleRoundedCornerRadius="20sp"
-        app:contentInsetStart="0dp"
-        >
+        tools:ignore="BottomAppBar">
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:menu="@menu/navbar"
-            app:elevation="0dp"
             android:background="@android:color/transparent"
-            android:outlineSpotShadowColor="@android:color/transparent"/>
+            android:outlineSpotShadowColor="@android:color/transparent"
+            app:elevation="0dp"
+            app:menu="@menu/navbar" />
     </com.google.android.material.bottomappbar.BottomAppBar>
-
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/house_chimney"
-        app:layout_anchor="@id/bottomappbar"/>
+        app:layout_anchor="@id/bottomappbar" />
 
 
 
