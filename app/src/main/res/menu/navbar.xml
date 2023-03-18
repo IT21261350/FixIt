@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_job"
+        android:icon="@drawable/calendar_clock"
+        android:title="Jobs"
+
+        />
+
+    <item
+        android:id="@+id/textinput_placeholder"
+        android:title=""
+        android:enabled="false"/>
+
+
+    <item
+        android:id="@+id/nav_prof"
+        android:icon="@drawable/portrait"
+        android:title="Profile"
+        />
+
+</menu>
