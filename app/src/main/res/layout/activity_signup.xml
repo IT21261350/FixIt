@@ -9,14 +9,6 @@
     android:background="@drawable/pagebkg"
     tools:context=".Signup">
 
-<!--    <TextView
-        android:id="@+id/cancel_button"
-        android:layout_width="400dp"
-        android:layout_height="20dp"
-        android:drawableLeft="@drawable/baseline_cancel_24"
-        android:padding="340dp"
-        android:paddingBottom="50dp"/>  -->
-
     <ImageButton
         android:id="@+id/btnCancel"
         android:layout_width="50dp"
@@ -33,6 +25,7 @@
         android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
+
 
         <LinearLayout
             android:layout_width="match_parent"

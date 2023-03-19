@@ -4,14 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogInSignUp">
+    tools:context=".LogInSignUp"
+    android:background="@drawable/pagebkg">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
         android:text="FixIt"
-        android:textSize="60sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/Dark_blue"
+        android:textSize="80sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,8 +23,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="332dp"
+        android:layout_height="314dp"
         android:backgroundTint="#FFFFFF"
         android:src="@drawable/hammer_helmet1"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -32,10 +36,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="cursive"
         android:text="Have an easy day"
-        android:textSize="45dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/Dark_blue"
+        android:textSize="60sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -45,6 +54,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
+        app:cornerRadius="100dp"
         android:text="@string/login_signup_Login"
         app:layout_constraintBottom_toTopOf="@+id/btnSignup"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,6 +67,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
+        app:cornerRadius="100dp"
         android:text="@string/login_signup_Signup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
