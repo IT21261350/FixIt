@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Review">
+    tools:context=".AddReview">
 
 
 
@@ -46,7 +46,7 @@
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.348" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/nameTextField"
         android:layout_width="358dp"
         android:layout_height="52dp"
         android:ems="10"
@@ -100,7 +100,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/emailTextField"
         android:layout_width="355dp"
         android:layout_height="52dp"
         android:ems="10"
@@ -115,7 +115,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/reviewTitleTextField"
         android:layout_width="355dp"
         android:layout_height="57dp"
         android:ems="10"
@@ -129,7 +129,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/reviewDescriptionTitleField"
         android:layout_width="354dp"
         android:layout_height="183dp"
         android:ems="10"
