@@ -2,13 +2,17 @@
     <string name="app_name">FixIt</string>
     <string name="Add_name">Name</string>
     <string name="EmailToME">Email</string>
-    <string name="submit_rating">SUBMIT</string>
+    <string name="next_button_label">Next</string>
     <string name="Review">Your Review</string>
     <string name="Review_title">Review Titile</string>
     <string name="overall_rating">Overall Rating</string>
+    <string name="update_rating">Update Rating</string>
     <string name="Edit_review">Edit</string>>
     <string name="todo">TODO</string>
     <string name="nevil_b">Nevil B</string>
     <string name="an_honest_recommendation_details_a_riences_with_the_applicant_you_should_know_how_the_candidate_acts_an_honest_recommendation_details_a_riences_with_the_applicant_you_should_know_how_the_candidate_acts_and_performs_in_a_work_environment">An honest recommendation details a riences with the applicant. You should know how the candidate acts An honest recommendation details a riences with the applicant. You should know how the candidate acts and performs in a work environment</string>
+    <string name="submit_rating">Submit Rating</string>
+    <string name="update_review">Save Changes</string>
+    <string name="delete_review">Remove Review</string>
 
 </resources>
