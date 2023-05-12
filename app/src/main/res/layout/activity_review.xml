@@ -9,7 +9,7 @@
 
 
     <RatingBar
-        android:id="@+id/ratingBar"
+        android:id="@+id/StarRating"
         android:layout_width="236dp"
         android:layout_height="50dp"
         android:contentDescription="@string/EmailToME"
