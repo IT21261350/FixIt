@@ -7,19 +7,19 @@
     tools:context=".WalletProfile">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/BackgroundImage"
         android:layout_width="1109dp"
         android:layout_height="884dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:alpha="0.4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.399"
+        app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/vector" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/profilepicture"
         android:layout_width="144dp"
         android:layout_height="133dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,19 +31,7 @@
         app:srcCompat="@drawable/prifile" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="175dp"
-        android:layout_height="49dp"
-        android:text="Quick withrow"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
-
-    <Button
-        android:id="@+id/button2"
+        android:id="@+id/SummeryBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="summery"
@@ -55,7 +43,7 @@
         app:layout_constraintVertical_bias="0.796" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/CustomerName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -70,25 +58,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.288" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Prifessional Carpenter"
-        android:textSize="50px"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+
 
     <RatingBar
         android:id="@+id/ratingBar"
-        android:layout_width="236dp"
-        android:layout_height="50dp"
+        android:layout_width="290dp"
+        android:layout_height="47dp"
         android:contentDescription="@string/EmailToME"
         android:numStars="5"
         android:progressBackgroundTint="@color/black"
@@ -105,10 +80,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintVertical_bias="0.456" />
 
     <TextView
         android:id="@+id/textView4"
@@ -148,5 +123,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698" />
+
+    <TextView
+        android:id="@+id/preofession"
+        android:layout_width="202dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="proffesional Carpenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
